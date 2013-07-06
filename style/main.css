@@ -1,0 +1,36 @@
+body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container {
+        width: 960px;
+      }
+      p.lead {
+	padding-top: 15px;
+      	text-align: center;
+      }
+      .navigation, .pitch, .section1, .section2, .faq, .footer {
+        padding: 10px 0px 10px 0px;
+      }
+      .thermometer, .order, .social {
+        border: 1px dotted;
+        text-align: center;
+      }
+      .video {
+        /* Internal borders have 1 px width, this need to add 4 X 1px to 120px */
+        height: 385px;
+        line-height: 124px;
+	//width: 512px;
+      }
+      .thermometer, .order, .social {
+        /* Line-height to vertically center: */
+        height: 40px;
+        line-height: 40px;
+      }
+      div.row {
+        border: 1px solid;
+      }
+
+.heading {
+	 text-align: center;
+}
