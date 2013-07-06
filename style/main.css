@@ -16,7 +16,7 @@ body {
         padding: 10px 0px 10px 0px;
       }
       .thermometer, .order, .social {
-        %border: 1px dotted;
+        //border: 1px dotted;
         text-align: center;
       }
       .video {
@@ -30,7 +30,7 @@ body {
         line-height: 40px;
       }
       div.row {
-        %border: 1px solid;
+        //border: 1px solid;
 	padding-bottom: 20px;
 	border-bottom: solid #222222;
 	border-bottom-width: 1px;
@@ -45,7 +45,47 @@ h1 {
    font-size: 60px;
 }
 
+.description {
+	     color: #666666;
+	     font-size: 16px;
+}
 /************** Order related ****************/
 .order-logo {
-	    padding: 10px 0px 10px 10px;
+	    padding: 0px 0px 0px 0px;
 }
+
+/************** Thermometer ******************/
+#progress_bg {
+	margin-top:20px;
+	float:right;
+	height:10px;
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.41);
+	box-shadow:0 1px 1px rgba(0,0,0,0.41);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:30px;
+	width: 100%;
+	background:#BBBBBB
+}
+
+#progress_bg #progress {
+	height:10px;
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.59);
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.59);
+	box-shadow:0 1px 1px rgba(0,0,0,0.59);
+	//background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxMzkyZGMiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNjlkZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	//background-image:-moz-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
+	//background-image:-o-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
+	//background-image:-webkit-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
+	//background-image:linear-gradient(90deg, #1392dc 0%, #069df4 100%);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	min-width:2%;
+	width:100%;
+	max-width:100%;
+	display:inline-block
+}
+
+#progress_bg #progress_text{margin:0 auto;width:100%;font-size:14pt;display:inline-block;color:white;text-shadow:0 -1px 1px rgba(0,0,0,0.37);text-align:center;position:relative;top:-35px}
