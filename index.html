@@ -1,135 +1,110 @@
 <!DOCTYPE>
 <html lang="en">
   <head>
-    <title>Coin of Life</title>
+    <title>My First Bitstarter</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container {
+        width: 960px;
+      }
+      p.lead {
+        padding-top: 15px;
+      }
+      .navigation, .pitch, .section1, .section2, .faq, .footer {
+        padding: 10px 0px 10px 0px;
+      }
+      .video, .thermometer, .order, .social {
+        border: 1px dotted;
+        text-align: center;
+      }
+      .video {
+        /* Internal borders have 1 px width, this need to add 4 X 1px to 120px */
+        height: 124px;
+        line-height: 124px;
+      }
+      .thermometer, .order, .social {
+        /* Line-height to vertically center: */
+        height: 40px;
+        line-height: 40px;
+      }
+      div.row {
+        border: 1px solid;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
       
-      <div class="navigation">
+      <div class="row navigation">
 	<div class="span2 logo">
-	  
+	  Logo
 	</div>
 	<div class="span6 blank">
-	  
+	  Blank
 	</div>
 	<div class="span4 about">
-	  
+	  About
 	</div>
       </div>
       
       <div class="row heading">
 	<div class="span12">
-	  <h1>Coin of Life</h1>
+	  <h1>Bitstarter Title</h1>
 	</div>
       </div>
-      <div class="subheading">
+      
+      <div class="row subheading">
 	<div class="span12">
-	  <p class="lead">The Most Addictive Bitcoin Game Ever</p>
+	  <p class="lead">This is my first bitstarter project.</p>
 	</div>
       </div>
       
       <div class="row pitch">
-	<div class="span7 video">
-	  <iframe width='512' height='385' src="http://youtube.com/v/ug4wa4BSLHQ?autohide=1&showinfo=0&rel=0&autoplay=0"></iframe>
+	<div class="span6 video">
+	  Video
 	</div>
-	<div class="span5">
+	<div class="span6">
 	  <div class="thermometer">
-	    <div class="span2">
-	      <div id="usercount">
-		1
-	      </div>
-	      <div style="font-size: 30px; color: #666666">
-		Users
-	      </div>
-	    </div>
-	    <div class="span2">
-	      <div id="coincount">
-		301 
-	      </div>
-	      <div style="font-size: 30px; color: #666666">
-		Coins
-	      </div>
-	    </div>
-	    <div id='progress_bg' class='small'>
-              <div id='progress' class='' style='width: 100%;'>
-              </div>
-      	    </div>	    
+	    Thermometer
 	  </div>
 	  <div class="order">
-	    <div class="span2 order-logo">
-	    <!-- <a href="https://play.google.com/store/search?q=pub:Sudeep Labs"> -->
-	      <img alt="Get it on Google Play" 
-		   src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-	    <!-- </a> -->
-	    </div>
-	    <div class="span2 order-logo">
-              <img src="images/apple.png" style="height: 50px;">
-	    </div>
-	    <div class="span4" style="color: red">* Coming soon</div>
+	    Order
 	  </div>
-
 	  <div class="social">
-	    <div class="span1">
-	      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Coin of Life: The most addictive bitcoin game ever!" data-size="large">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	    </div>
-	    <div class="span1"> 
-	      <div class="g-plusone" data-annotation="inline" data-size="tall" annotation="none"></div>
-	    </div>
-	    
+	    Social
 	  </div>
 	</div>
       </div>
       
       <div class="row section1">
 	<div class="span12">
-	  <h2>What is Coin of Life?</h2>
-	  <div class="span7 description">
-	    <p>
-	      Coin of Life is a game based on Conway's 'Game of Life'. You start by placing some coins on the board and hit 'Play'. The coins accumulate according to these rules:
-	    </p>
-	    <ul>
-	      <li>If a cell has 2 or 3 neighboring coins, it generates a new coin</li>
-	      <li>otherwise, the coin in the cell disappears</li>
-	    </ul>
-	    Here are some popular initial coin placements to get you plenty more coins!
-	  </div>
-	  <div class="span4">
-	    <img src="images/patterns.png" style="height: 50px, width: 70px">
-	  </div>
+	  Marketing Section 1
 	</div>
       </div>
 
       <div class="row section2">
 	<div class="span12">
-	  <h2>How to Get BitCoins Using Coin of Life?</h2>
-	  <div class="span4">
-	    img
-	  </div>
-	  <div class="span7 description">
-	    You can exchange your accumulated coins with bitcoins, buy additional bitcoins.
-	    Pay special attention to additional features in the game - diamonds, rocks and pearls. They help 
-	  </div>
+	  Marketing Section 2
 	</div>
       </div>
 
       <div class="row faq">
 	<div class="span12">
-	  <h2>FAQ</h2>
+	  FAQ
 	</div>
       </div>
 
       <div class="row footer">
 	<div class="span12">
-	  <h2>Footer</h2>
+	  Footer
 	</div>
       </div>
     </div>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   </body>
 </html>
